@@ -1,148 +1,119 @@
-// Question (1);
-// var students = [];
-// students.splice(0,1,"Sameer","Haider","Ali");
-// console.log(students);
+// Chapter # 21 to 15 
+// Question (1)
+// var first = prompt("Enter your first Name.");
+// var sec = prompt("Enter your last Name.");
+// alert("Assalam-o-Alaikum "+ first +" "+ sec);
 
-// Question (2);
-// var object = new Array();
-// object.push("Mole");  
-// object.push("tools");  
-// object.push("panzer");
-// console.log(object[1])  
-// console.log(object[0])  
-// console.log(object[2]) 
+// Question (2)
+// var take = prompt("Enter your favorite phone name.");
+// document.write("Your favorite phone name is " + take +"<br>");
+// document.write("lenght of sring "+ take.length );
 
-// Question (3);
-// var op =new Array("Pizza","HEllo","Papa ke pari");
+// Question (3)
+// var county = prompt("Enter any counrty name.");
+// var which = prompt("ask me any index number of letter");
+// var result = county.indexOf(which);
+// alert(result+ " it number of you asked me");
 
-// Question (4);
-// var num =new Array(9,2,2,35,5,7,665,64);
+// Question (4)
+// var str = "Hello World";
+// var result = str.lastIndexOf("l");
+// alert(result);
 
-// Question (5);
-// var bolean = [true,false];
+// Question (5)
+// var counrty = prompt('Enter any country name .');
+// alert("Third letter of this country "+ counrty +"( "+ counrty.charAt(3) +" )");
 
-// Question (6);
-// var mized = [98,"gta","karachi", "Makhni"];
+// Question (6)
+// console.log(first.concat(" nikal " +sec));
 
-// // Question (7);
-// var education = ["SSC", "HSC", "BCS","BS", "BCOM", "MS", "M. Phil.", "PhD"];
-// document.write("<h1>Qualifications</h1>");
-// document.write("<ol><li>",education[0],"</li>","<li>",education[1],"</li>","<li>",education[2],"</li>","<li>",education[3],"</li>","<li>",education[4],"</li>","<li>",education[5],"</li>","<li>",education[6],"</li>","<li>",education[7],"</li>");
+// Question (7)
+// var str = "Hyderabad";
+// var replace = "Islam";
+// console.log(replace + str.slice(5));
 
-// // Question (8);
-// var students= ["Sarah","Raza","Ali"];
-// var studentsNum= [90,88,92];
-// var totalmarks = 200;
-// var resultOfSarah ;
-// resultOfSarah = (studentsNum[0]/totalmarks)*100;
-// var resultOfRaza ;
-// resultOfRaza = (studentsNum[1]/totalmarks)*100;
-// var resultOfAli ;
-// resultOfAli = (studentsNum[2]/totalmarks)*100;
-// document.write("Score of sarah is 90.Percentage: ",resultOfSarah,"<br>");
-// document.write("Score of sarah is 88.Percentage: ",resultOfAli,"<br>");
-// document.write("Score of sarah is 92.Percentage: ",resultOfAli ,"<br>");
+// Question (8)
+// var message = "Ali and Sami are best friends. They play cricket and football together.";
+// message = message.replaceAll("and","&");
+// console.log(message);
 
-// // Question (9);
-// var color = ["Red", "Blue", "Green" ,"Yellow"];
-// var wantColor1 = prompt("what color do you want");
-// color.unshift(wantColor1);
-// // document.write(color);
-// var wantColor2 = prompt("what color do you want");
-// color.push(wantColor2);
-// var wantColor3 = prompt("what color do you want");
-// var wantColor4 = prompt("what color do you want");
-// color.shift();
-// color.unshift(wantColor3,wantColor4);
-// color.pop();
-// var index = prompt("what color do you want");
-// color.push(index);
-// var del = prompt("How many color you want to delete") ;
-// document.write(color);
-// console.log(color);
-// if(del == "Red"){
-//     color.splice(2,1);
-// }
-// else if(del == "Blue"){
-//     color.splice(3,1);
-// }
-// else if(del == "Green"){
-//     color.splice(4,1)
-// } 
-// else if(del == "Yellow"){
-//     color.splice(5,1);
-// }
-// else if(del == "Red,Blue,Green,Yellow"){
-//     color.splice(2,4);
-// } 
-// else if(del == "Red,Blue,Green"){
-//     color.splice(2,3);
-// }
-// else if(del == "Red,Blue"){
-//     color.splice(2,2);
-// }
-// else{
-//     alert("Thanks for didn't give me input");
-// }
-// document.write("<h2>",color,"</h2>");
+// Question (9)
+// var str = 893045;
+// document.write( "value: " + str + "<br>");
+// document.write( "type: " + typeof "" + "<br>");
+// document.write( "value: " + str + "<br>");
+// document.write( "type: " + typeof str + "<br>");
 
-// // Question (10);
-// var studentsScore = [320,632,123,324,765];
-// document.write(studentsScore,"<br>");
-// document.write(studentsScore[4],",",studentsScore[1],",",studentsScore[3],",",studentsScore[0],",",studentsScore[2]);
+// Question (10)
+// var first = prompt("Enter your name");
+// document.write(first.toUpperCase());
 
-// // Question (11);
-// var city = ["Karachi","Lahore","Hydrabad","Sialkot","Sakkhar","Faislabad"];
-// document.write(city ,"<br>");
-// var selectedCity = prompt("Where do you live");
-// if(selectedCity == "Karachi"){
-//     document.write(city[0]);
-// }
-// else if(selectedCity == "Lahore"){
-//     document.write(city[1]);
-// }
-// else if(selectedCity == "Hydrabad"){
-//     document.write(city[2]);
-// }
-// else if(selectedCity == "Sialkot"){
-//     document.write(city[3]);
-// }
-// else if(selectedCity == "Sakkhar"){
-//     document.write(city[4]);
-// }
-// else if(selectedCity == "Faislabad"){
-//     document.write(city[5]);
-// }
-// else{
-//     document.write("NaN");
+// Question (11)
+// var first = prompt("Enter your name");
+// document.write(first.toLowerCase());
+
+// Question (12)
+// var num = 35.36;
+// var numString = num.toString().replace(".","");
+// console.log(numString);
+
+// Question (13)
+// var userName = prompt("Enter your name");
+// var char = userName.charCodeAt();
+// if(char == 33 || char == 44 || char == 46 || char == 64){
+//         alert("dont use these special symbol [! , . @] ");
+//     }else{
+//             alert("Your name has saved");
+//         }
+
+// Question (14)
+// var arr = ["cake", "apple pie", "cookie", "chips", "patties"];
+// var get = prompt("What do you want to order");
+// var flag;
+// for(var i = 0; i < arr.length; i++){
+    //     if(arr[i] == get){
+        //         alert(get +" is available at index "+[i]+ " in our bakkery");
+        //         flag = false;
+        //         break;
+        //     }   
+        // }
+        // if(flag == true){
+            //     alert("We don't have "+get);
+            // }
+            
+// Question (15)
+// var password = prompt("Enter a Password: \n a. It should contain alphabets and numbers \n b. It should not start with a number \n c. It must at least 6 characters long ")
+// var a = /[@!,." "&%$# \d]/
+// if (a.test(password) || password.length < 6) {
+//     alert("Invalid password. Password not Meet Requirement: \n a. It should contain alphabets and numbers \n b. It should not start with a number \n c. It must at least 6 characters long")
+// }else{
+//     alert("Password Accepted:")
 // }
 
-// // Question (12);
-// var arr = ["This", "is", "my", "cat ."];
-// document.write(arr.join(" "));
 
-// // Question (13);
-// let queue = [];
+// Q 16
 
-// queue.push(1);
-// queue.push(2);
-// queue.push(3);
+// var user_input = prompt("enter your country name:");
+// var a = user_input.charAt( user_input.length - 1);
+// document.write("User input: "+user_input+"<br> Last character of input: "+a)
 
-// document.write(queue.shift());  // Output: 1
-// document.write(queue.shift());  // Output: 2
-// document.write(queue.shift());  // Output: 3
+// Q 17
 
-// // Question (14);
-// var hum = [];
+// var uni = "University of Karachi";
+// var uni = uni.split("");
+// console.log(uni);
 
-// hum.push(1);
-// hum.push(2);
-// hum.push(3);
-// console.log(hum);
-// document.write(hum.pop());
-// document.write(hum.pop());
-// document.write(hum.pop());
+// Q 18
 
-// Question (15);
-// var mob = ["Apple","Samsung" , "Motorola" , "Nokia" , "Sony"  ,"Haier" ];
-// document.write("<select><option>",mob[0],"</option>","<option>",mob[1],"</option>","<option>",mob[2],"</option>","<option>",mob[3],"</option>","<option>",mob[4],"</option>","<option>",mob[5],"</option></select>");
+// let str = " The Quick Brown Fox Jump Over The Lazy Dog";
+// let count = 0
+// let arr = str.split(" ");
+// for (let i = 0; i < arr.length; i++) {
+// if(arr[i] === "The"){
+//     count++
+// }
+// }
+// document.write("The word 'The' appears "+ count+ " times in the string.");
+
+            
+            
